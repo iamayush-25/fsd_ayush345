@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table ,th, td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            background-color: white;
+        }
+        th,td{
+            border: 1px solid black;
+            border-radius: 10px;
+            border-style:dashed;
+            text-align: left;
+            padding: 50px;
+            border-spacing: 30px;
+
+        }
+        td:nth-child(even){
+            background-color:blue;
+        }
+        td:hover{
+            background-color: darkkhaki;
+        }
+    </style>
 </head>
-<body>
-    <h1>idssoj</h1>
-    <h2>msk</h2>
-    <h2>mkz</h2>
-    <h3>mskj</h3>
+
+<table>
+    <h1>Hello</h1>
+    <h2>good moring</h2>
+    <h3>good afternoon</h3>
+    <h4>good nigth</h4>
+    <h5>bye</h5>
+    <table style="width: 50;">
+        <caption>Student Details</caption>
+        <colgroup>
+        <col spam="1" style="background-color: aquamarine;">
+        <col spam="2" style="background-color: blueviolet;">
+        <col spam="3" style="background-color: greenyellow;">
+    </colgroup>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Roll No.</th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ashwani</td>
+            <td>318</td>
+        </tr>
+        <div class ="xclass">
+            <h1>Coffe</h1>
+            <p>black hot drink</p>
+        </div>
+    </table>
 </body>
 </html>
